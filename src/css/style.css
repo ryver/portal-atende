@@ -9928,7 +9928,14 @@ div.condensed table tbody td, table.condensed tbody td {
     height: 96px;
 }
 
-.fa-solid {
+.home-card {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.home-card svg {
     height: 64px !important;
     width: 64px !important;
+    margin-top: 8px;
 }
